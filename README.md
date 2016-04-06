@@ -35,7 +35,8 @@ Help is allways welcome! If you know something which can help development, Shoot
 - https://blogs.msdn.microsoft.com/granth/2010/02/27/tfs2010-create-a-new-team-project-collection-from-powershell-and-c/
 - http://stackoverflow.com/questions/213873/forcing-a-tfs-checkin-of-a-file-via-c-sharp
 - and other Stackoverflows
-*Big Thanks to all who helped me directly by showing me the light or indirectly by posting these blogs and stackoverflows!*
+- 
+- *Big Thanks to all who helped me directly by showing me the light or indirectly by posting these blogs and stackoverflows!*
 
 ##First commit
 The first commit of this repository will happen soon!
