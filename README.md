@@ -14,17 +14,17 @@ When the prototype is working, I will start building following compontents, base
   - File: Done
   - Folder: Done
 - Rename:
-  - File: Testing
-  - Folder: Testing
+  - File: Done
+  - Folder: Done
 - Branching:
-  - File: Testing
-  - Folder: Testing
+  - File: Done
+  - Folder: Done
 - Rollback: 
-  - File: Not started
-  - Folder: Not started
+  - File: Done => if the rollback uses Delete, Add or Rename
+  - Folder: Done => if the rollback uses Delete, Add or Rename
 - Merge:
-  - File: Not started
-  - Folder: Not started
+  - File: Unknown
+  - Folder: Unknown
 
 #Contributing
 Help is always welcome! If you know something which can help development, Shoot!
@@ -38,6 +38,4 @@ Help is always welcome! If you know something which can help development, Shoot!
 
 *Big Thanks to all who helped me directly by showing me the light or indirectly by posting these blogs and stackoverflows!*
 
-##First commit
-The first commit of this repository will happen soon!
 
