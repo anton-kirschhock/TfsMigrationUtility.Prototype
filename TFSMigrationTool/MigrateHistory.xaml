@@ -1,0 +1,29 @@
+﻿<Window x:Class="TFSMigrationTool.MigrateHistory"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TFSMigrationTool"
+        xmlns:converters="clr-namespace:TFSMigrationTool.Converters"
+        mc:Ignorable="d"
+        Title="Migrate" Height="300" Width="300">
+    <Window.Resources>
+        <converters:ColourConverter x:Key="ColourConverter"/>
+    </Window.Resources>
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="10"/>
+            <RowDefinition Height="35"/>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="35"/>
+        </Grid.RowDefinitions>
+        <TextBlock TextAlignment="Center" FontWeight="Bold" Grid.ColumnSpan="3">History Migration worker</TextBlock>
+        <ProgressBar Maximum="{Binding MaxStep}" Value="{Binding CurrentStep}" Foreground="{Binding ProgressColor,Converter={StaticResource ColourConverter}}" Grid.ColumnSpan="3" Grid.Row="1" />
+        <ProgressBar Maximum="{Binding MaxStepTwo}" Value="{Binding CurrentStepTwo}" Foreground="{Binding ProgressColor,Converter={StaticResource ColourConverter}}" Grid.ColumnSpan="3" Grid.Row="2" />
+        <Label Grid.Row="3">Output: </Label>
+        <TextBox TextChanged="TextBox_TextChanged" Text="{Binding OutputFrom}" AcceptsReturn="True" AcceptsTab="True" Grid.Row="4"/>
+        <Button Command="{Binding OnStart}" Grid.Row="5" Grid.ColumnSpan="3">Start</Button>
+    </Grid>
+</Window>
