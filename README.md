@@ -27,7 +27,7 @@ When the prototype is working, I will start building following compontents, base
   - Folder: Not started
 
 #Contributing
-Help is allways welcome! If you know something which can help development, Shoot!
+Help is always welcome! If you know something which can help development, Shoot!
 
 #Sources
 - MSDN: TFS C# API documentation
