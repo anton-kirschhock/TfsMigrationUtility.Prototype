@@ -5,6 +5,26 @@ When the prototype is working, I will start building following compontents, base
 - TfsMigrationUtility.WPF: a WPF View
 - TfsMigrationUtility.CLI: a console application to assist migrations
 
+#Supported Changes
+- Add:
+  - File: Done
+  - Folder: Done
+- Delete: 
+  - File: Done
+  - Folder: Done
+- Rename:
+  - File: Testing
+  - Folder: Testing
+- Branching:
+  - File: Testing
+  - Folder: Testing
+- Rollback: 
+  - File: Not started
+  - Folder: Not started
+- Merge:
+  - File: Not started
+  - Folder: Not started
+
 #Contributing
 Help is allways welcome! If you know something which can help development, Shoot!
 
