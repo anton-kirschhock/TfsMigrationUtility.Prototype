@@ -1,5 +1,6 @@
 # TfsMigrationUtility Prototype project
-Starting from this small project, I will try to make a clean and usefull TFS migration utility to migrate projects from A to B.
+Starting from this small project, I will try to make a clean and usefull TFS migration utility to migrate projects from A to B with their history in sequence.
+
 When the prototype is working, I will start building following compontents, based of the prototype (in order):
 - TfsMigrationUtility.Core: the core Migration logic
 - TfsMigrationUtility.WPF: a WPF View
@@ -28,6 +29,14 @@ When the prototype is working, I will start building following compontents, base
 #Contributing
 Help is allways welcome! If you know something which can help development, Shoot!
 
+#Sources
+- MSDN: TFS C# API documentation
+- http://blog.jessehouwing.nl/2015/11/work-around-now-commercial-features-of.html
+- https://blogs.msdn.microsoft.com/granth/2010/02/27/tfs2010-create-a-new-team-project-collection-from-powershell-and-c/
+- http://stackoverflow.com/questions/213873/forcing-a-tfs-checkin-of-a-file-via-c-sharp
+- and other Stackoverflows
+*Big Thanks to all who helped me directly by showing me the light or indirectly by posting these blogs and stackoverflows!*
+
 ##First commit
 The first commit of this repository will happen soon!
-This commit is the complete prototype, as I am working on a private Sourcecontrol while development.
+
