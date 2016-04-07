@@ -23,8 +23,14 @@ When the prototype is working, I will start building following compontents, base
   - File: Done => if the rollback uses Delete, Add or Rename
   - Folder: Done => if the rollback uses Delete, Add or Rename
 - Merge:
-  - File: Unknown
-  - Folder: Unknown
+  - File: Not tested
+  - Folder: Not tested
+
+#Own use
+You can use this code (if it helps).
+The "core" of this application is the following viewmodel: https://github.com/muziekklas/TfsMigrationUtility.Prototype/blob/master/TFSMigrationTool/ViewModels/MigrateHistoryViewModel.cs
+Find the method "Runner".
+I know, the code is not clean. But it was just a test :)
 
 #Contributing
 Help is always welcome! If you know something which can help development, Shoot!
